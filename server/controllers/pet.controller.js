@@ -12,7 +12,7 @@ module.exports = {
     .then((allPets) => {
       console.log("in all pets");
       console.log(allPets);
-      res.json(allPets);
+      res.json(allPets)
     })
     .catch((err) => {
       console.log("Error found in getAll");
